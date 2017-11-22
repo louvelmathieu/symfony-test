@@ -2,10 +2,8 @@ imports:
     - { resource: config.yml }
 
 #framework:
-#    validation:
-#        cache: validator.mapping.cache.doctrine.apc
-#    serializer:
-#        cache: serializer.mapping.cache.apc
+#    cache:
+#        system: cache.adapter.apcu
 
 #doctrine:
 #    orm:
@@ -16,12 +14,12 @@ imports:
 monolog:
     handlers:
         main:
-            type: fingers_crossed
+            type:         fingers_crossed
             action_level: error
-            handler: nested
+            handler:      nested
         nested:
-            type: stream
-            path: '%kernel.logs_dir%/%kernel.environment%.log'
+            type:  stream
+            path:  '%env(LOG_URL)%'
             level: debug
         console:
-            type: console
+            type:  console
