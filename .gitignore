@@ -7,8 +7,26 @@
 !app/logs/.gitkeep
 /app/phpunit.xml
 /build/
-/vendor/
-/var/cache/
-/var/logs/
-/var/sessions/
 /composer.phar
+
+# Parameters and cache (PhpStorm)
+/.idea/
+
+# Parameters and cache (Eclipse)
+/.settings/
+/.buildpath
+/.project
+
+# Composer
+/bin/*
+!/bin/console
+/vendor/
+
+# Symfony stub for tests
+/var/*
+!/var/.gitkeep
+!/var/cache
+/var/cache/*
+
+!/var/logs
+/var/logs/*
