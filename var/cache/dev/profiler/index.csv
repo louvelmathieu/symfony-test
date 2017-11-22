@@ -1,4 +1,0 @@
-a28964,127.0.0.1,GET,http://127.0.0.1:8001/,1511354021,,302
-dcdf91,127.0.0.1,GET,http://127.0.0.1:8001/fr,1511354022,,200
-e7e41d,127.0.0.1,GET,http://127.0.0.1:8001/_fragment?_path=_locale%3Dfr%26_format%3Dhtml%26_controller%3DFrameworkBundle%253ATemplate%253Atemplate,1511354043,3c9a46,200
-3c9a46,127.0.0.1,GET,http://127.0.0.1:8001/fr/blog/,1511354043,,200
